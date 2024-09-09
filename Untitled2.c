@@ -1,19 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
-int main () {
-    int a;
-    int b;
-    int c;
 
-    printf("digite 3 números inteiros:\n");
+int main (){
+        char nome[1][100];
+        int idade;
+        int expectativa;
+        int resultado;
+        expectativa=76;
 
-    scanf("%d",&a);
-    scanf("%d",&b);
-    scanf("%d",&c);
+        printf("Digite seu nome e idade:\n");
+        gets(nome);
+        scanf("%d",&idade);
 
-    printf("\n%d\n",c);
-    printf("%d\n",b);
-    printf("%d\n",a);
+        //adotando a expectativa de vida como aproximadamente 76 anos, de acordo com o jornal usp.
 
-return 0;
+        resultado=expectativa-idade;
+
+        printf("sua expectativa de vida:%d anos",resultado);
 }
