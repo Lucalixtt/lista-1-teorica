@@ -7,7 +7,7 @@ int main(){
     int notas_um, notas_dez,notas_cinquenta,notas_cem,resultado;
 
     printf("Bem vindo ao contador de notas!\n");
-    printf("informe a qauntidade de notas de 1 real:\n");
+    printf("informe a quantidade de notas de 1 real:\n");
     scanf("%d",&notas_um);
 
     printf("informe a qauntidade de notas de 10 reais:\n");
