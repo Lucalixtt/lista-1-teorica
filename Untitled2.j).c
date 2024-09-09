@@ -10,13 +10,13 @@ int main(){
     printf("informe a quantidade de notas de 1 real:\n");
     scanf("%d",&notas_um);
 
-    printf("informe a qauntidade de notas de 10 reais:\n");
+    printf("informe a quantidade de notas de 10 reais:\n");
     scanf("%d",&notas_dez);
 
     printf("informe a quantidade de notas de 50 reais:\n");
     scanf("%d",&notas_cinquenta);
 
-    printf("informe a qauntidade de notas de 100 reais:\n");
+    printf("informe a quantidade de notas de 100 reais:\n");
     scanf("%d",&notas_cem);
 
     resultado=(1*notas_um)+(10*notas_dez)+(50*notas_cinquenta)+(100*notas_cem);
