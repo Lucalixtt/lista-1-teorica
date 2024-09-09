@@ -13,7 +13,7 @@ int main(){
     printf("informe a qauntidade de notas de 10 reais:\n");
     scanf("%d",&notas_dez);
 
-    printf("informe a qauntidade de notas de 50 reais:\n");
+    printf("informe a quantidade de notas de 50 reais:\n");
     scanf("%d",&notas_cinquenta);
 
     printf("informe a qauntidade de notas de 100 reais:\n");
